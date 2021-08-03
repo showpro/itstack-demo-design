@@ -18,6 +18,14 @@ import java.util.HashMap;
 
 public class ApiTest {
 
+    /**
+     * 分别模拟传⼊了两个不同的MQ消息，并设置字段的映射关系。
+     *
+     * @throws NoSuchMethodException
+     * @throws IllegalAccessException
+     * @throws InvocationTargetException
+     * @throws ParseException
+     */
     @Test
     public void test_MQAdapter() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, ParseException {
 
