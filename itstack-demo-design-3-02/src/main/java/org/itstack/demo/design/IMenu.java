@@ -1,5 +1,8 @@
 package org.itstack.demo.design;
 
+/**
+ * 装修包接口
+ */
 public interface IMenu {
 
     /**

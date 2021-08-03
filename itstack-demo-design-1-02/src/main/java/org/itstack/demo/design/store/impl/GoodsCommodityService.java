@@ -9,6 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
+/**
+ * 实现奖品发放接口：实物商品
+ */
 public class GoodsCommodityService implements ICommodity {
 
     private Logger logger = LoggerFactory.getLogger(GoodsCommodityService.class);

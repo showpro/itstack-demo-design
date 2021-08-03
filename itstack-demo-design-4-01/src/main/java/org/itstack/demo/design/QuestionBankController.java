@@ -9,6 +9,7 @@ public class QuestionBankController {
 
     public String createPaper(String candidate, String number) {
 
+        //⾸先创建选择题和问答题到集合中
         List<ChoiceQuestion> choiceQuestionList = new ArrayList<ChoiceQuestion>();
         List<AnswerQuestion> answerQuestionList = new ArrayList<AnswerQuestion>();
 

@@ -17,6 +17,7 @@ public class CacheServiceImpl implements CacheService {
 
     public String get(String key, int redisType) {
 
+        //在接⼝中添加类型字段区分当前使⽤的是哪个集群，来作为使⽤的判断。
         if (1 == redisType) {
             return egm.gain(key);
         }

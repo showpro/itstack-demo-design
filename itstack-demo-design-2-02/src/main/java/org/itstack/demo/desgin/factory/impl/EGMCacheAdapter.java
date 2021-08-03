@@ -9,6 +9,7 @@ public class EGMCacheAdapter implements ICacheAdapter {
 
     private EGM egm = new EGM();
 
+    //在统⼀⽅法名下进⾏包装
     public String get(String key) {
         return egm.gain(key);
     }

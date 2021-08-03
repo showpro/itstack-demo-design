@@ -5,6 +5,9 @@ import org.itstack.demo.design.RedisUtils;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 单集群代码使⽤
+ */
 public class CacheServiceImpl implements CacheService {
 
     private RedisUtils redisUtils = new RedisUtils();

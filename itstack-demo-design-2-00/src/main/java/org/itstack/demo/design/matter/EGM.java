@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 模拟集群A，但是⽅法名与各业务系统中使⽤的⽅法名不同。有点像你mac，我⽤win。做⼀样的事，但有不同的操作。
+ */
 public class EGM {
 
     private Logger logger = LoggerFactory.getLogger(EGM.class);

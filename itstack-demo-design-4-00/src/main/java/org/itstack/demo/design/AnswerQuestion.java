@@ -1,7 +1,7 @@
 package org.itstack.demo.design;
 
 /**
- * 解答题
+ * 问答题
  */
 public class AnswerQuestion {
 

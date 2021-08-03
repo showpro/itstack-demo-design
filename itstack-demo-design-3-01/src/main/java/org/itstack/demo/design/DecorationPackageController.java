@@ -14,6 +14,11 @@ import java.util.List;
 
 public class DecorationPackageController {
 
+    /**
+     * @param area  装修面积
+     * @param level 装修等级
+     * @return
+     */
     public String getMatterList(BigDecimal area, Integer level) {
 
         List<Matter> list = new ArrayList<Matter>(); // 装修清单
@@ -76,7 +81,7 @@ public class DecorationPackageController {
                 "房屋面积：" + area.doubleValue() + " 平米\r\n" +
                 "材料清单：\r\n");
 
-        for (Matter matter: list) {
+        for (Matter matter : list) {
             detail.append(matter.scene()).append("：").append(matter.brand()).append("、").append(matter.model()).append("、平米价格：").append(matter.price()).append(" 元。\n");
         }
 
